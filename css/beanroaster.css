@@ -100,3 +100,34 @@ footer {
     top: 177px;
     z-index: 0;
 }
+
+#Comments{
+    text-align: center;
+}
+
+.text15{
+    width: 15%;
+    
+}
+
+.text61{
+    width: 61%;
+}
+
+.text24{
+    width: 24%;
+    text-align: center;
+}
+
+.text80{
+    width: 80%;
+}
+
+.text20{
+    width: 20%;
+    text-align: left;
+}
+
+.flex-container{
+    display: flex;
+}
