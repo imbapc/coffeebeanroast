@@ -14,15 +14,13 @@
 	</header>
 	<main>
         <div id="SelectImage" style="width:622px;">
-            <table style="width:100%">
-                <div class = "flex-container">
-                    <div class = text15><em>Load image:</em></div>
-                    <div class = text61><input style="float:left;" id="uploadImage" type="file" name="myPhoto" onchange="loadImageFile();" /></div>
-                    <div class = text24>
-                        <div id="pointerMode"></div>
-                    </div> 
-                </div>
-            </table>
+            <div class = "flex-container">
+                <div class = text15><em>Load image:</em></div>
+                <div class = text61><input style="float:left;" id="uploadImage" type="file" name="myPhoto" onchange="loadImageFile();" /></div>
+                <div class = text24>
+                    <div id="pointerMode"></div>
+                </div> 
+            </div>
         </div>
         <div style="width:622px;height:302px;position: relative;background-color: #ffffff;">
             <canvas id="cnvActiveImage" width="470" height="300" style="border:1px solid #d3d3d3;position: absolute; left: 0; top: 0; z-index: 0;">Your browser does not support the HTML5 canvas tag.</canvas>
@@ -31,15 +29,13 @@
             <div id="dvActiveColour" data-colour="#FFFFFF,255,255,255" onClick="cellSampleClick(this.getAttribute('data-colour'));" style="height:100px;width:102px;background-color:#FFFFFF;position: absolute; left: 495px; top: 177px; z-index: 0;"></div>
         </div>
         <div id="tblButtons" style="width:622px;">
-             <table style="width:100%">
-                 <div class = "flex-container">
-                     <div class = text80><em>Coffee Bean Roast Colour:</em></div>
-                     <div class = text20>
-                         <button title="New comment" style="ba  ckground-color:white" onClick="clearUserComments()"><img src="./img/new_note_button.png" alt = "new note button"></button>
-                         <button title="Copy comment to clipboard" style="background-color:white" onClick="copyComments()"><img src="./img/copy_note_button.png" alt = "new note button"></button>
-                     </div>
-                    </div>
-             </table>
+            <div class = "flex-container">
+                <div class = text80><em>Coffee Bean Roast Colour:</em></div>
+                <div class = text20>
+                    <button title="New comment" style="background-color:white" onClick="clearUserComments()"><img src="./img/new_note_button.png" alt = "new note button"></button>
+                    <button title="Copy comment to clipboard" style="background-color:white" onClick="copyComments()"><img src="./img/copy_note_button.png" alt = "new note button"></button>
+                </div>
+            </div>
          </div>
          <div id="Comments" style="width:622px;">
              <textarea id="userComments" rows="6" cols="75"></textarea>
